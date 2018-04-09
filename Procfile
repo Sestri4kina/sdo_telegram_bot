@@ -1,1 +1,1 @@
-web: babel-node index.js --presets=env
+web: node index.js
