@@ -1,0 +1,20 @@
+{
+  "name": "sdo-telegram-bot",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "Telegram bot",
+  "author": "Chepka Anastasiia",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index --presets=env"
+  },
+  "engines": {
+    "node": "6.11.3"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "config": "^1.30.0",
+    "node-telegram-bot-api": "^0.30.0"
+  }
+}
